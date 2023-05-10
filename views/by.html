@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width:766px)" href="../Static/ByMobile.css" />
+    <link rel="stylesheet" media="screen and (min-width:766px) and (max-width:900px)" href="../Static/ByTab.css" />
+    <link rel="stylesheet" media="screen and (min-width:901px)" href="../Static/ByPC.css" />
+    <title>VByjus</title>
+</head>
+
+<body>
+    <div id="main_container">
+        <nav id="navbar">
+            <div id="navImgBox">
+                <img src="	https://cdn1.byjus.com/byjusweb/img/classes/logo-4.png" alt="" id="navImg">
+            </div>
+            <ul>
+                <li> <a href="#sec_3"> Features </a></li>
+                <li> <a href="#"> Testimonials </a> </li>
+                <li> <a href="#"> FAQs </a></li>
+                <li> <a href="#" id="nav_a"> BYJU'S advantage </a></li>
+                <button id="navbar_btn">
+                    Book a FREE Class
+                </button>
+            </ul>
+
+        </nav>
+        <nav id="navbar_mobile">
+            <div id="navMobDiv">
+                <div id="hamBox">
+                    <span id="hambagur" onclick="hamburger()">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </span>
+                </div>
+                <div id="mobIBox">
+                    <img src="	https://cdn1.byjus.com/byjusweb/img/classes/logo-4.png" alt="" id="navMobImg">
+                </div>
+                <div id="BtnBox">
+                    <button id="navbar_mob_btn">
+                        Book a FREE class
+                    </button>
+                </div>
+            </div>
+            <ul id="nav_mob_ul" class="a">
+                <li> <a href="#sec_3"> Features </a></li>
+                <li> <a href="#"> Testimonials </a> </li>
+                <li> <a href="#"> FAQs </a></li>
+                <li> <a href="#" id="nav_mob_a"> BYJU'S advantage </a></li>
+            </ul>
+        </nav>
+        <!-- Section 1 -->
+        <section id="sec_1">
+            <div id="Sec_1_main">
+
+                <div id="sec_1_img">
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Banner%20Image%201.png" alt="">
+                </div>
+                <div id="sec_1_content">
+                    <h2>
+                        Tuitions Redefined
+                    </h2>
+                    <p id="sec_1_p_1">
+                        Delivering superior learning and results through a
+                        unique <strong> two-teacher </strong> model
+                    </p>
+                    <p id="sec_1_mob_p1">
+                        Delivering superior learning and results <br> through a <br>
+                        unique <strong> two-teacher </strong> model
+                    </p>
+                    <div id="sec_1_formBox">
+                        <h4>Book your Free Class</h4>
+                        <p>Learn from India's best teachers</p>
+                        <ul>
+                            <li id="sec_1_active">1</li>
+                            <li id="sec_1_dash"></li>
+                            <li id="sec_1_next">2</li>
+                        </ul>
+                        <h5>Enter Your Details</h5>
+                        <form action="/Data.text" id="sec_1_form" method="post">
+                            <div><input type="text" placeholder="Enter Name of your Child" id="sec_1_name" name="name">
+                            </div>
+                            <div id="sec_1_mobile"><input type="text" placeholder="Enter your Mobile Number"
+                                    name="mobile">
+                                <button id="sec_1_otp_btn">Send OTP</button>
+                            </div>
+                            <div><input type="email" placeholder="Email Address" id="sec_1_email" name="email"></div>
+                            <div><input type="text" placeholder="State" id="sec_1_state" name="state"></div>
+                            <div><button id="sec_1_btn" onclick="sec_1_form_p()">Try Now</button></div>
+                            <!-- <div id="sec_1_form_p">
+                                                <p>Added Successfully</p>
+                                            </div> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 2 -->
+
+        <section id="sec_2">
+            <div>
+                <h2>Why choose BYJU'S Classes?</h2>
+            </div>
+            <div id="sec_2_img">
+                <div>
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Mask%20Group%208.svg" alt="">
+                    <p>Two teachers
+                        instead of one!</p>
+                </div>
+                <div>
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Mask%20Group%209.svg" alt="">
+                    <p>One teacher - teaches
+                        concepts clearly</p>
+                </div>
+                <div>
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Mask%20Group%2010.svg" alt="">
+                    <p>Another teacher - pays
+                        personal attention and
+                        solves student's doubts</p>
+                </div>
+                <div>
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Mask%20Group%2011.svg" alt="">
+                    <p>Proven BYJU’S
+                        academic methodology</p>
+                </div>
+                <div>
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Mask%20Group%2012.svg" alt="">
+                    <p>360° teaching +
+                        learning system</p>
+                </div>
+            </div>
+        </section>
+        <!-- Section 3 -->
+
+        <section id="sec_3">
+            <h2>Two-teacher advantage</h2>
+            <div>
+                <div id="sec_3_img">
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Interactive%20Tutions1.png" alt="">
+                </div>
+                <div id="sec_3_content">
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/Batches1.svg" alt="">
+                        <h3>One teacher teaches concepts</h3>
+                        <p>The expert teacher explains and teaches topics
+                            in-depth ensuring conceptual clarity</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/doubt%20resolution1.svg" alt="">
+                        <h3>Other teacher pays personal attention</h3>
+                        <p>The second teacher facilitates a class of 20 and
+                            pays attention to individual student’s needs making
+                            the sessions interactive and engaging</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/visualisation1.svg" alt="">
+                        <h3>Visualisation</h3>
+                        <p>The expert teacher teaches concepts
+                            using strong visuals and storytelling</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/instant1.svg" alt="">
+                        <h3>Instant doubt solving</h3>
+                        <p>The second teacher solves doubts instantly,
+                            conducts tests and assigns homework</p>
+                    </div>
+                    <button id="sec_3_btn">Book a FREE class</button>
+                </div>
+            </div>
+        </section>
+        <!-- Section 4 -->
+
+        <section id="sec_4">
+
+            <div>
+                <div id="sec_4_img1">
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Personalised%201.png" alt="">
+                </div>
+                <div id="sec_4_content">
+                    <h2>BYJU’S proven academic
+                        methodology</h2>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/design1.svg" alt="">
+                        <h3>Designed to deliver results</h3>
+                        <p>Every class is carefully designed by experts <br>
+                            with methods that are proven to give results</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/class1.svg" alt="">
+                        <h3>Classes structured to learn-
+                            practice-revise</h3>
+                        <p>Classes are structured to help students not just <br>
+                            learn concepts but also practice and revise them</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn1.byjus.com/byjusweb/img/classes/test1.svg" alt="">
+                        <h3>Tests, quizzes and worksheets</h3>
+                        <p>Tests, quizzes and worksheets for <br>
+                            better practice and retention</p>
+                    </div>
+                    <button id="sec_4_btn">Book a FREE class</button>
+                </div>
+                <div id="sec_4_img2">
+                    <img src="https://cdn1.byjus.com/byjusweb/img/classes/Personalised%201.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- footer Section -->
+        <footer></footer>
+    </div>
+    <script src="../Static/By.js"></script>
+</body>
+
+</html>
